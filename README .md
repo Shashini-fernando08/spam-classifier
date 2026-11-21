@@ -2,7 +2,7 @@
 
 A machine learning web app that classifies SMS messages as **spam** or **ham** (not spam).
 
-🔗 **Live demo:** _add your Streamlit Cloud link here_
+🔗 **Live demo:** https://spam-classifier-bs7w99rmbftlkhamrcrtzz.streamlit.app
 
 ## Overview
 - **Dataset:** [SMS Spam Collection (Kaggle)](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset), about 5,500 messages (~13% spam)
@@ -25,7 +25,7 @@ Linear SVM gave the best precision/recall balance (highest F1). Naive Bayes neve
 
 ## Run locally
 ```bash
-git clone https://github.com/<your-username>/spam-classifier.git
+git clone https://github.com/Shashini-fernando08/spam-classifier.git
 cd spam-classifier
 pip install -r requirements.txt
 # put spam.csv from Kaggle into data/
